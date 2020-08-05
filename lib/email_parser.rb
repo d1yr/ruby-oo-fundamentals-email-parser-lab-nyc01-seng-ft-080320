@@ -8,4 +8,4 @@ class EmailParser
     @emails = emails 
   end
   def parse
-    
+    emails.split.collect do
